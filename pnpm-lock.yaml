@@ -1,0 +1,36 @@
+lockfileVersion: '9.0'
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
+importers:
+
+  .:
+    dependencies:
+      prettier:
+        specifier: ^3.3.2
+        version: 3.3.2
+      prettier-plugin-jinja-template:
+        specifier: ^1.4.0
+        version: 1.4.0(prettier@3.3.2)
+
+packages:
+
+  prettier-plugin-jinja-template@1.4.0:
+    resolution: {integrity: sha512-9i7HwTAryhOTtY1ENyZBZA+KNaPphSaI/sXbQno5a6/DgiP6ZAnUiax4cOKiutEwiSDhVfLbTXEfHS5QAUVWBg==}
+    peerDependencies:
+      prettier: ^3.0.0
+
+  prettier@3.3.2:
+    resolution: {integrity: sha512-rAVeHYMcv8ATV5d508CFdn+8/pHPpXeIid1DdrPwXnaAdH7cqjVbpJaT5eq4yRAFU/lsbwYwSF/n5iNrdJHPQA==}
+    engines: {node: '>=14'}
+    hasBin: true
+
+snapshots:
+
+  prettier-plugin-jinja-template@1.4.0(prettier@3.3.2):
+    dependencies:
+      prettier: 3.3.2
+
+  prettier@3.3.2: {}
