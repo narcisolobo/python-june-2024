@@ -21,9 +21,6 @@ Welcome to the Python Stack! I am your instructor, Narciso "See-so" Lobo.
 3. Refine them by diving deeper during Office Hour/Lectures.
 4. There are also [prior lecture videos on the Learn Platform](https://login.codingdojo.com/m/506/9085/61634) that you can watch for a different perspective.
 
-## Practice vs. Core Assignments
-I suggest you complete all practice assignments. Practice assignments help you complete core assignments, and core assignments help you complete the belt exam.
-
 ## 20-Minute Rule
 Completing assignments in a timely fashion is critical during a bootcamp. We must always be pushing forward.
 
@@ -56,7 +53,10 @@ On Friday of each week (except week 8), we will have student-led office hours. A
    2. Use the [#dojo-hall](https://discord.com/channels/738494436467539968/969378747734171729) channel in Discord.
 5. Which assignments are core assignments?
    1. Core assignments are highlighted in <mark>yellow</mark> on the [Assignment Checklist tab](https://docs.google.com/spreadsheets/d/1JJUoLK3-vhaUjLeT4b3aLzyT4V3Zk1WyByweOLGdzzE/edit#gid=240014646) of our class calendar.
-6. I had a doctor's appointment. Can my absense be excused?
+6. Do I have to complete the practice assignments?
+   1. No, only core assignments are required (90%).
+   2. However, I suggest you complete all practice assignments. Practice assignments help you complete core assignments, and core assignments help you complete the belt exam.
+7. I had a doctor's appointment. Can my absense be excused?
    1. Possibly. Send your documentation to support@codingdojo.com
-7. I have a medical issue that may interfere with taking an exam. Can I have an academic exception or accommodations?
+8. I have a medical issue that may interfere with taking an exam. Can I have an academic exception or accommodations?
    1. Send an email with documentation to support@codingdojo.com ASAP.
