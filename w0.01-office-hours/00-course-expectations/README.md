@@ -3,10 +3,10 @@ Welcome to the Python Stack! I am your instructor, Narciso "See-so" Lobo.
 
 ## Course Requirements
 1. Zero tolerance for abuse and dishonesty
-2. At least 90% core assignment completion
+2. At least 90% core assignment completion (15/16)
 3. At least 70% attendance (discussion questions - check your catalog for particulars)
 4. An orange, red, or black belt on the Python belt exam
-5. Academic honesty ([refer to the platform](https://login.codingdojo.com/m/750/7941/59255) or to your catalog for particulars)
+5. Academic honesty ([refer to the platform](https://login.codingdojo.com/m/506/7941/59255) or to your catalog for particulars)
 
 ## Course Guidelines
 1. If you are not speaking, please mute your mic.
