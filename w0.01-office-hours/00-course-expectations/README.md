@@ -6,7 +6,14 @@ Welcome to the Python Stack! I am your instructor, Narciso "See-so" Lobo.
 2. At least 90% core assignment completion
 3. At least 70% attendance (discussion questions - check your catalog for particulars)
 4. An orange, red, or black belt on the Python belt exam
-5. Academic honesty ([refer to the platform](https://login.codingdojo.com/m/750/7941/59255))
+5. Academic honesty ([refer to the platform](https://login.codingdojo.com/m/750/7941/59255) or to your catalog for particulars)
+
+## Course Guidelines
+1. If you are not speaking, please mute your mic.
+2. I would love it if your cameras were on! It makes for a much-improved experience.
+3. Please [raise your hand](https://support.zoom.com/hc/en/article?id=zm_kb&sysparm_article=KB0068290) to ask a question if I'm currently speaking, or simply type your question in the zoom chat.
+4. Participate! I'll periodically ask for feedback. Sometimes I'll ask questions regarding the assigned reading.
+5. Do not compare yourself to anyone else. The only person you should be comparing yourself to is the coder you were yesterday.
 
 ## Flipped Classroom Model
 1. Read tomorrow's material today.
@@ -29,6 +36,9 @@ When your code does not do what it's supposed to do, start a 20-minute timer. Th
 4. Search online (Stack Overflow, etc.)
 5. Ask your cohort-mates (Discord)
 6. Ask your TA or instructor (also Discord), *by the time you reach this step, it will have been at least 20 minutes*
+
+## Student-Led Office Hours
+On Friday of each week (except week 8), we will have student-led office hours. As each week progresses, I'll ask for volunteers.
 
 ## FAQs
 1. Where is my student catalog?
