@@ -3,7 +3,7 @@
 """
 
 # Example:
-temperature = 0
+temperature = 50
 
 if temperature > 80:
     print("It's a hot day!")
@@ -16,8 +16,8 @@ else:
 
 
 # Nested conditionals:
-temperature = 70
-is_raining = True
+temperature = 62
+is_raining = False
 
 if temperature > 60:
     if is_raining:
@@ -43,3 +43,4 @@ if is_raining:
 what_to_bring += "and a smile!"
 
 print(what_to_bring)
+# prediction: I should bring: sunglasses, a coat, and a smile!

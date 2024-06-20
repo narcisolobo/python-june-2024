@@ -97,26 +97,49 @@ Integers represent whole numbers. Floats represent
 decimal numbers.
 """
 
+print("INTEGERS AND FLOATS".center(50, "-"))
+print()
+
 # Integer literal assignment
+num = 3
+print(type(num))
 
 # Constructor function (casting)
+casted_int = int("42")
+print(type(casted_int))
 
 # Float literal assignment
+pi = 3.14
+print("the type of pi is", type(pi))
 
 # Constructor function (casting)
+num_float = float(num)
+print("num_float:", num_float, "type:", type(num_float))
 
 # Arithmetic operations
 # +, -, *, /, **, //
+print(3**3)
+print(type(5 // 2))
+print(5 // 2)
 
-# +=, -=, *=, /= assignment operators
+# +=, -=, *=, /=, %= assignment operators
+num = 5
+num /= 2
+print(num)
 
 # Built-in functions for numbers
 
 # abs, round
+print(abs(-3))
+print(round(3.9))
+print(round(3.3))
 
 # Math module
 
 # sqrt, ceil, floor
+print(math.sqrt(9))
+print(math.ceil(3.1))
+print(math.floor(3.9))
 
 """
 === === BOOLEANS === ===
@@ -124,8 +147,11 @@ Booleans represent the value of True or False.
 """
 
 # Literal assignment
+is_sleeping = True
 
 # Constructor function (casting)
+result = bool(0)
+print(result)
 
 """
 === === NONE === ===
@@ -134,5 +160,7 @@ like the javascript null
 """
 
 # None literal assignment
+user = None
+print(type(user))
 
 # Why use None?

@@ -16,3 +16,22 @@ Enter a number: -3
 Enter a number: 0
 0 is neither positive nor negative.
 """
+
+num = input("Enter a number: ")
+
+if not num.isnumeric():
+    print(f"{num} is not a number")
+    exit(1)
+
+""" try:
+    num = int(num)
+except:
+    print(f"{num} is not a number")
+    exit(1) """
+
+if num < 0:
+    print(f"{num} is a negative number.")
+elif num == 0:
+    print(f"{num} is neither positive nor negative.")
+else:
+    print(f"{num} is a positive number.")

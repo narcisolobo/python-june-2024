@@ -1,6 +1,6 @@
 """
 === === TUPLES === ===
-A tuple is a collection which is ordered and unchangeable.
+A tuple is a collection which is ordered and unchangeable (immutable).
 
 Tuples allow duplicate values.
 

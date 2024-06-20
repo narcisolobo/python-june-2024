@@ -1,3 +1,5 @@
+import random
+
 """
 === === WHILE LOOPS EXERCISE === ===
 Write a Python program that simulates a guessing game.
@@ -20,3 +22,17 @@ Too low, try again.
 Guess the number (between 1 and 100): 45
 Congratulations! You guessed the number correctly.
 """
+
+target = random.randint(1, 100)
+
+guess = int(input("Guess the number (between 1 and 100): "))
+
+while guess != target:
+    if guess < target:
+        print(f"{guess} is too low, try again.")
+        guess = int(input("Guess again: "))
+    else:
+        print(f"{guess} is too high, try again.")
+        guess = int(input("Guess again: "))
+
+print("Congratulations! You guessed the number correctly.")
