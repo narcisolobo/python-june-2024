@@ -1,31 +1,47 @@
+# Python Dictionaries
+A Python dictionary is a versatile data structure that allows you to store and manage data as key-value pairs. Here are some key points to understand:
+
+1. **Key-Value Pairs**: Each item in a dictionary has a key and a corresponding value. Keys are unique identifiers, while values are the data associated with these keys.
+2. **Syntax**: Dictionaries are defined using curly braces `{}`. For example:
+
+    ```py
+    strat = {
+        "brand": "Fender",
+        "model": "Stratocaster",
+        "year": 1977,
+        "is_new": False,
+    }
+    ```
+    In this example, `"brand"`, `"model"`, `"year"`, and `"is_new"` are keys.
+    
+    `"Fender"`, `"Stratocaster"`, `1977`, and `False` are their respective values.
+
 ## Accessing values with bracket notation
 
-We can access values in a dictionary by their
-key names. Use bracket notation with quotes.
+We can access values in a dictionary by their key names. Use bracket notation with quotes
+around the key name.
 
 ```py
 print(strat["year"])  # 1977
 ```
 
-## Accessing values with the get() method
+## Dictionary Manipulation
+Dictionaries are mutable, meaning we can change, add, or remove items.
 
-We can access values in a dictionary with the get()
-method. Pass the key name in the method call in quotes.
-
+For example:
 ```py
-print(strat.get("is_new"))  # False
-```
+# Update existing key
+strat["year"] = 1968
 
-> What's the difference between bracket notation and .get()?  
-> With .get(), our application doesn't break if we specify a key name that doesn't exist.
+# Add new key-value pair
+strat["color"] = "blue"
 
-```py
-# print(strat["non_existent_key"])  # KeyError: 'non_existent_key'
-print(strat.get("non_existent_key"))  # None
+# Remove key-value pair
+del strat["year"]
 ```
 
 ## Dictionary methods
-There are many useful methods we can use with lists.
+Here are a few useful methods we can use with dictionaries.
 
 ### keys, values, items
 
@@ -47,10 +63,12 @@ name exists in a dictionary.
 
 ```py
 if "color" in strat:
-    print("color exists in strat")
+    print(strat["color"])
+else:
+    print("key does not exist")
 
 if "banana" not in strat:
-    print("banana not in strat")
+    print("key does not exist")
 ```
 
 [Explore more dictionary methods!](https://www.w3schools.com/python/python_ref_dictionary.asp)

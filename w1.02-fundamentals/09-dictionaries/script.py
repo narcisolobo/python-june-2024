@@ -8,31 +8,41 @@ with a comma, use a colon between keys and values, and
 surround the key name with quotation marks.
 """
 
-# Accessing values with bracket notation
+strat = {"brand": "Fender", "model": "Stratocaster", "year": 1977, "is_new": False}
+
+# Accessing/getting values with bracket notation
+key_name = "brand"
+print(strat[key_name])
 
 # We can access values in a dictionary by their
 # key names. Use bracket notation with quotes.
-
-# Accessing values with the get() method
-
-# We can access values in a dictionary with the get()
-# method. Pass the key name in the method call in quotes.)
-
-# What's the difference between bracket notation and .get()?
-# With .get(), our application doesn't break if we specify a
-# key name that doesn't exist.
 
 """
 === === DICTIONARY MANIPULATION === ===
 """
 # Bracket notation
 
-# setting a value in a dictionary using bracket notation
+# Changing an existing value
+strat["year"] = 1968
+print(strat)
+
+# Adding a new key-value pair
+strat["color"] = "blue"
+print(strat)
+
+# Removing a key-value pair with pop() and del
+""" strat.pop("year")
+print(strat)"""
+
+del strat["color"]
+print(strat)
 
 # Testing for an existing key
 # in, not in
+if "color" in strat:
+    print(strat["color"])
+else:
+    print("color key not in strat")
 
 # We can use the 'in' and 'not in' keywords to check if a key
 # name exists in a dictionary.
-
-# Removing values with pop() and del

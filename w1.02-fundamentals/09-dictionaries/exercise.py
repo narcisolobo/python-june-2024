@@ -1,12 +1,15 @@
 """
 Exercise: Phone Book
-Write a Python program to create a simple phone book. The program should allow users to perform the following operations:
+Write a Python program to create a simple phone book. The program
+should allow users to perform the following operations:
 
 - Add a new contact to the phone book.
 - Display the phone number of a given contact.
 - List all contacts in the phone book.
 
-To implement this, you can use a dictionary where the keys are the names of the contacts, and the values are their corresponding phone numbers.
+To implement this, you can use a dictionary where the keys are the
+names of the contacts, and the values are their corresponding phone
+numbers.
 
 Expected output:
 
@@ -36,12 +39,12 @@ def list_contacts(phone_book):
 
 
 # Main program
-phone_book = {}
+my_phone_book = {}
 
-add_contact(phone_book, "Alice", "1234567890")
-add_contact(phone_book, "Bob", "9876543210")
+add_contact(my_phone_book, "Alice", "1234567890")
+add_contact(my_phone_book, "Bob", "9876543210")
 
-display_phone_number(phone_book, "Alice")
-display_phone_number(phone_book, "Charlie")
+display_phone_number(my_phone_book, "Alice")
+display_phone_number(my_phone_book, "Charlie")
 
-list_contacts(phone_book)
+list_contacts(my_phone_book)

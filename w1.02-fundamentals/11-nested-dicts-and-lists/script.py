@@ -2,8 +2,8 @@
 === === NESTED DICTIONARIES & LISTS === ===
 Nesting is also allowed in dictionaries. In other words,
 dictionaries may contain lists and tuples as well as other
-dictionaries. Likewise, lists may contain dictionaries. All
-of these may be many levels deep!
+dictionaries. Likewise, lists may contain dictionaries,
+tuples, lists, etc. All of these may be many levels deep!
 """
 
 monty_python = [
